@@ -3,7 +3,7 @@
 
 import random
 my_list = []
-for i in range(5):
+for i in range(8):
     my_list.append(i)
 print(f'Исходный список {my_list}')
 
@@ -17,5 +17,6 @@ def shuffle_elem(original_list):
         new_list[new_list_index] = temp
     return new_list
 print(f'Новый список {shuffle_elem(my_list)}')
+
 
 
